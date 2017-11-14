@@ -4,8 +4,8 @@
   "description": "Backend for MoneyKeeper",
   "main": "loader.js",
   "scripts": {
-    "dev" : "nodemon",
-    "production" : "pm2"
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name moneykeeper"
   },
   "author": "Matheus de Sousa Monteiro Fonseca",
   "license": "ISC",
